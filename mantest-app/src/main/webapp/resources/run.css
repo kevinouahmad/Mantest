@@ -1,0 +1,57 @@
+#runStep {
+	background-image: linear-gradient(45deg, #571778 20%, #672671 100%);
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding-top: 10px;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+#runStepContainer {
+	padding-top: 10px;
+	margin-top: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-top: 1px black solid;
+	border-left: 20px solid rgba(255, 255, 255, 0);
+	border-right: 20px solid rgba(255, 255, 255, 0);
+}
+
+#runStepPath {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	text-align: left;
+	font-size: 20px;
+	width: 20%;
+	border-right: 1px black solid;
+	border-top: 20px solid rgba(255, 255, 255, 0);
+	border-bottom: 100px solid rgba(255, 255, 255, 0);
+}
+
+#runStepDescription {
+	color: rgba(0, 0, 0, 0.8);
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-bottom: 5px;
+}
+
+#runStepDescription p {
+	width: 95%;
+	margin-bottom: 0;
+	flex-grow: 1;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#successFailure button {
+	width: 45%;
+	min-height: 35px;
+	border-radius: 5px;
+	font-size: 18px;
+}

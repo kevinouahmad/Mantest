@@ -1,0 +1,192 @@
+@font-face {
+  font-family: robotoLight;
+  src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+.container {
+	margin-top : 10px;
+	border: 1px rgba(0, 0, 0, 0.79) solid;
+	border-radius: 5px;
+}
+
+.heading {
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+	color: #571778;
+	border-bottom: 1px black solid;
+	border-right: 200px transparent solid;
+	border-left: 200px transparent solid;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	font-family: robotoLight;
+	font-size: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.line {
+	width: 99%;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 5px;
+	height: 50px;
+}
+
+.line:hover {
+	background-color: rgba(1, 1, 1, 0.2);
+}
+
+.name {
+	color: #571778;
+	flex: 1;
+	text-align: left;
+	padding-left: 10px;
+	font-family: robotoLight;
+	font-size: 22px;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.name:hover {
+	padding-left: 35px;
+	color: #6914bc;
+	cursor: pointer;
+}
+
+.icon {
+	margin-top: 15px;
+	margin-bottom: 13px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 2px;
+	width: 36px;
+	height: auto;
+}
+
+.icon:hover {
+	border: 1px black solid;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.icon:active {
+	width: 32px;
+	height: auto;
+}
+
+.smallIcon {
+	width: 18px;
+	height: 18px;
+	background-size: cover;
+	background-position: center;
+}
+
+.triangleRight {
+	background-image: url("pics/triangleRight.png");
+}
+	
+.triangleDown {
+	background-image: url("pics/triangleDown.png");	
+}
+
+.hidden {
+	display: none;
+}
+
+.lineNew input {
+	font-family: robotoLight;
+	background-image: linear-gradient(45deg, #181818 30%, #672671 100%);
+	height: 36px;
+	min-width: 400px;
+	color: rgba(255, 255, 255, 0.95);
+}
+
+.lineNew button {
+	position: relative;
+	bottom: 5px;
+}
+
+.lineSuite {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.lineSuite:hover {
+	background-color: rgba(1, 1, 1, 0.2);
+}
+
+.headerSuite {
+	width: 99%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items:center;
+	padding: 5px;
+}
+
+
+.listSuite {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.subtestSuite {
+	width: 99%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.newSubTest input {
+	background-image: linear-gradient(45deg, #181818 30%, #672671 100%);
+	width: 400px;
+	height: 30px;
+	color: white;
+}
+
+.newSubTest button {
+	padding-bottom: 10px;
+}
+
+.newSubTest {
+	width: 100%; 
+}
+
+.newSubTest form {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 99%;
+	padding-left: 10px;
+}

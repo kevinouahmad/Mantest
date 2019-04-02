@@ -1,0 +1,71 @@
+package fr.uha.ensisa.gl.clubpiquette.mantest_app.it;
+
+
+import static org.junit.Assert.*;
+import static org.mockito.Mockito.*;
+import java.io.IOException;
+import java.util.Collection;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.ArgumentCaptor;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+import org.mockito.internal.verification.VerificationModeFactory;
+import org.springframework.web.servlet.ModelAndView;
+
+import fr.uha.ensisa.gl.clubpiquette.mantest.dao.DaoFactory;
+
+import fr.uha.ensisa.gl.clubpiquette.mantest_app.controller.HomeController;
+import fr.uha.ensisa.gl.clubpiquette.mantest_app.controller.SingleTestController;
+
+public class TestControllerTest {
+//	@Mock public DaoFactory daoFactory;
+//	@Mock public TestDao daoTask;
+//	public TestController sut;
+//	@Before
+//	public void prepareDao() {
+//		MockitoAnnotations.initMocks(this); // creÌ�e les @Mock
+//		when(daoFactory.getTestDao()).thenReturn(this.daoTask);
+//		sut = new TestController(); // System Under Test
+//		sut.daoFactory = this.daoFactory;
+//	}
+//	@Test
+//	public void emptyList() throws IOException {
+//		ModelAndView ret = sut.list();
+//		Collection<fr.uha.ensisa.gl.clubpiquette.mantest.Test> tests = (Collection<fr.uha.ensisa.gl.clubpiquette.mantest.Test>)
+//				ret.getModelMap().get("tests");
+//		assertNotNull(tests);
+//		assertTrue(tests.isEmpty());
+//	}
+//	@Test
+//	public void createTest() throws IOException {
+//		sut.create("testTest");
+//		// Il faut qu'un persist aie eÌ�teÌ� appeleÌ� sur daoTask
+//		verify(daoTask).persist(
+//				any(fr.uha.ensisa.gl.clubpiquette.mantest.Test.class));
+//	}
+//	@Test
+//	public void delete() throws IOException {
+//		long removedId = 5l;
+//		fr.uha.ensisa.gl.clubpiquette.mantest.Test test = mock(fr.uha.ensisa.gl.clubpiquette.mantest.Test.class);
+//		when(daoTask.find(removedId)).thenReturn(test);
+//		sut.delete(removedId);
+//		verify(daoTask).remove(test);
+//	}
+//	@Test
+//	public void modifyTest() throws IOException{
+//		long modifyId = 1l;
+//		sut.modify(modifyId);
+//		verify(daoTask).find(modifyId);
+//	}
+//	
+//	@Test
+//	public void doModifyTest() throws IOException{
+//		long toModify = 1l;
+//		fr.uha.ensisa.gl.clubpiquette.mantest.Test test = mock(fr.uha.ensisa.gl.clubpiquette.mantest.Test.class);
+//		when(daoFactory.getTestDao().find(toModify)).thenReturn(test);
+//		sut.doModify(1l, "ModifiedName");
+//		verify(test).setName("ModifiedName");	
+//	}
+}

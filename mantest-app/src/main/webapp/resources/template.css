@@ -1,0 +1,108 @@
+@font-face {
+  font-family: robotoLight;
+  src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+body {
+	background-color: rgba(0, 0, 0, 0.85);
+	color: #ced7f2;
+	text-align: center;
+	background-image: url("pics/background.jpg");
+	background-repeat: true true;
+	padding: none;
+}
+
+.nav {
+  background-color: rgba(15, 15, 15, 0.95);
+  border-bottom: 2px black solid;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.nav-container {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.logo {
+	float: left;
+	height: 80%;
+	padding-top: 10px;
+	width: auto;
+}
+
+.nav-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.nav-menu a {
+	display: block;
+	padding: 20px;
+	color: #a929d4;
+	font-size: 20px;
+	font-family: roboto;
+	width: 75px;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.nav-menu a:hover {
+	text-decoration: none;
+	font-size: 22px;
+	background-image: linear-gradient(45deg, #181818 30%, #672671 100%);
+	border-radius: 5px;
+}
+
+#backLayer {
+	background-color: rgba(24, 24, 24, 0.85);
+	position: fixed;
+	top: 72px;
+	left: 0;
+	right: 0;
+	bottom: 42px;
+}
+
+#main {	
+	margin-top:0px;
+	padding-top: 0px;
+	overflow: auto;
+	height: 100%;
+	margin-bottom: 40px;
+}
+
+footer {
+	text-align: center;
+	background-color: rgba(15, 15, 15, 0.95);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	border-top: 2px black solid;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: middle;
+	color: #571778;
+	overflow: hidden;
+}
